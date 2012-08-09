@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = 'PermitKermit'
+  s.name        = 'permit_kermit'
   s.version     = '0.0.1'
   s.date        = '2012-08-09'
   s.summary     = "Simple plugin for role-based permissions"

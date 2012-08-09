@@ -5,12 +5,12 @@ Simple plugin for role-based permissions
 
 ## Usage
 
-Add permit_kermit to your Gemfile:
+Add **permit_kermit** to your Gemfile:
 ```ruby
 gem 'permit_kermit', :git => "git://github.com/knapo/permit_kermit.git"
 ```
 
-Include module to your base controller (e.g. AdminController)
+Include module to your base controller (e.g. `AdminController`)
 
 ```ruby
 include PermitKermit
