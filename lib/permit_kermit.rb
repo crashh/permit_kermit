@@ -46,10 +46,10 @@ module PermitKermit
     end
 
     def permitted?(*roles)
-      role_names = roles.flatten.map(&:to_s)
+      allowed_role_names = roles.flatten.map(&:to_s)
+      user_role_names    = current_user.role_names.map(&:to_s)
 
-      common_roles = current_user.role_names & role_names
-
+      common_roles = allowed_role_names & user_role_names
       common_roles.any?
     end
 
