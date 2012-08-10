@@ -42,7 +42,7 @@ or in views:
 ```
 
 ### Important note!
-**PermitKermit** expects controller to have `current_user` variable which responds to `role_names` returing array with symbolized or stringified role names, e.g:
+**permit_kermit** expects controller to have `current_user` variable which responds to `role_names` returing array with symbolized or stringified role names, e.g:
 
 ```ruby
   def role_names
