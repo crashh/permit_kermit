@@ -61,6 +61,6 @@ module PermitKermit
 end
 
 module ActionController
-  class PermissionDenied < ActionControllerError
+  class PermissionDenied < StandardError
   end
 end
