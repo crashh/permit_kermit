@@ -26,7 +26,7 @@ when permission_denied_route is not defined `root_url` will be used.
 Use as before_filters in controller:
 
 ```ruby
-permit :admin, :moderator, :expect => :destroy
+permit :admin, :moderator, :except => :destroy
 permit :admin, :only => :destroy
 ```
 
